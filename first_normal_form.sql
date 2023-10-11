@@ -52,7 +52,7 @@ CREATE TABLE models_brands
 \echo "this table"
 SELECT DISTINCT string_to_table(brand, ', ') AS brand_name, model_id
 FROM models
-JOIN brands ON brands.brand_name = models.brand_name;
+JOIN brands ON brands.brand_name = models.brand;
 
 
 SELECT * FROM models_1nf;
