@@ -1,0 +1,29 @@
+You are now connected to database "topmodelsql" as user "kylemcphail".
+CREATE TABLE
+INSERT 0 22
+ model_id | brand_id 
+----------+----------
+        1 |       12
+        1 |        7
+        2 |        2
+        2 |       17
+        3 |        4
+        3 |       16
+        3 |       19
+        4 |        1
+        5 |       11
+        5 |        6
+        5 |       20
+        6 |        5
+        7 |       15
+        7 |       13
+        8 |        9
+        8 |        8
+        9 |        3
+        9 |       21
+        9 |       10
+       10 |       14
+       10 |       18
+       10 |        1
+(22 rows)
+

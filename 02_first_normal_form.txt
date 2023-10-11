@@ -1,0 +1,73 @@
+You are now connected to database "topmodelsql" as user "kylemcphail".
+CREATE TABLE
+INSERT 0 10
+CREATE TABLE
+INSERT 0 21
+CREATE TABLE
+"this table"
+INSERT 0 22
+ model_id |    model_name    |    area     | price_per_event |  category   |   agent   |      trait      | rating | next_event_date | revenue 
+----------+------------------+-------------+-----------------+-------------+-----------+-----------------+--------+-----------------+---------
+        1 | Bartholomew P    | Milan       |          499.99 | Fashion     | Verity    | Pro strutter    |      7 | 2022-11-15      | 2999.94
+        2 | Notso Neat       | Online      |            9.99 | Promotional | Alex      | The dadbod drop |      1 | 2022-09-12      |  149.85
+        3 | Jarred MacKenzie | Los Angeles |             170 | Fitness     | Paul      | Fire_eating     |      4 | 2022-01-08      |    1530
+        4 | Rathbones Arr    | London      |          263.82 | Parts       | Kev       | Hand modelling  |      5 | 2022-03-06      | 1846.74
+        5 | Sarah B          | Online      |          432.25 | Promotional | Alex      | Influencer      |      7 | 2022-10-23      |    3458
+        6 | Cat Wang         | Milan       |             600 | Fashion     | Verity    | Catwalker       |      8 | 2022-05-14      |    3600
+        7 | Starr Schema     | Crewe       |             250 | Glamour     | Rose      | Databases       |      5 | 2022-09-12      |    1500
+        8 | Sam Pagne        | Athens      |          899.99 | Swimsuit    | Katherine | Old-money       |      9 | 2022-01-20      | 9899.89
+        9 | Salle De Bain    | Stockholm   |             150 | Commercial  | Christian | Architect       |      3 | 2022-07-16      |    1050
+       10 | Slam Dunk        | Los Angeles |          801.65 | Fitness     | Paul      | High-tops       |      9 | 2022-08-23      | 7214.85
+(10 rows)
+
+ brand_id |    brand_name     
+----------+-------------------
+        1 | Adidas
+        2 | Aldi
+        3 | Amazon
+        4 | Buff
+        5 | Charities
+        6 | Ebay
+        7 | H&M
+        8 | Harrods
+        9 | HSBC
+       10 | Ikea
+       11 | Instagram
+       12 | Louboutin
+       13 | Marks and Spencer
+       14 | Nike
+       15 | Oricle
+       16 | Patagonia
+       17 | Poundland
+       18 | Reebok
+       19 | Salomon
+       20 | Vinted
+       21 | Wayfair
+(21 rows)
+
+ model_id | brand_id 
+----------+----------
+        1 |       12
+        1 |        7
+        2 |        2
+        2 |       17
+        3 |        4
+        3 |       16
+        3 |       19
+        4 |        1
+        5 |       11
+        5 |        6
+        5 |       20
+        6 |        5
+        7 |       15
+        7 |       13
+        8 |        9
+        8 |        8
+        9 |        3
+        9 |       21
+        9 |       10
+       10 |       14
+       10 |       18
+       10 |        1
+(22 rows)
+

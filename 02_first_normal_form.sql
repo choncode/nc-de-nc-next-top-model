@@ -43,14 +43,14 @@ ORDER BY brand_name ASC;
 
 
 
-CREATE TABLE models_brands
+CREATE TABLE models_brands_1nf
 (
     model_id INT REFERENCES models_1nf(model_id),
     brand_id INT REFERENCES brands(brand_id)
 );
 
 \echo "this table"
-INSERT INTO models_brands(brand_id, model_id)
+INSERT INTO models_brands_1nf(brand_id, model_id)
 
 WITH distinct_brands AS (
 SELECT DISTINCT string_to_table(brand, ', ') AS brand_name, model_id
@@ -65,7 +65,7 @@ SELECT * FROM models_1nf;
 
 SELECT * FROM brands;
 
-SELECT * FROM models_brands;
+SELECT * FROM models_brands_1nf;
 
 
 
