@@ -1,6 +1,6 @@
 DROP DATABASE
 CREATE DATABASE
-You are now connected to database "topmodelsql" as user "chonlee".
+You are now connected to database "topmodelsql" as user "kylemcphail".
 CREATE TABLE
 INSERT 0 214
  model_id |      model_name      |    area     | price_per_event |  category   |   agent   |             brand              |                trait                 | rating |  next_event_date  | revenue 

@@ -50,10 +50,16 @@ CREATE TABLE models_brands
 );
 
 \echo "this table"
+INSERT INTO models_brands(brand_id, model_id)
+
+WITH distinct_brands AS (
 SELECT DISTINCT string_to_table(brand, ', ') AS brand_name, model_id
 FROM models
-JOIN brands ON brands.brand_name = models.brand;
+)
 
+SELECT brands.brand_id, distinct_brands.model_id FROM distinct_brands
+JOIN brands ON brands.brand_name = distinct_brands.brand_name
+ORDER BY distinct_brands.model_id ASC;
 
 SELECT * FROM models_1nf;
 
